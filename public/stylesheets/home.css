@@ -1,0 +1,98 @@
+body{
+	background-color:#ffffff;
+}
+.data-box{
+	margin-top:1rem;
+	background-color:grey;
+	width:100%;
+	/* height:3rem; */
+	border-radius:0.75rem;
+	text-align:center;
+	font-size:2rem;
+	font-family: 'Montserrat', sans-serif;
+	color:rgba(0, 0, 0, 0.4);
+}canvas{
+	width:100%;
+	height:100%;
+}
+#confirmed{
+	background-color:blueviolet;
+}
+#recovered{
+	background-color:palegreen;
+}
+#deaths{
+	background-color:red;
+}
+#img-div {
+	width:100%;
+	height:40rem;
+	padding:0;
+	background:linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.85) 100%),
+		url("../images/india-landscape-in-vector.webp");
+	background-size:cover;
+	background-position: center center;
+	overflow:hidden;
+}
+#img-div h1{
+	position:absolute;
+	color:white;
+	bottom:30%;
+	width:100%;
+	text-align:center;
+}
+.transparent{
+	border:0px;
+	background-color:rgba(0, 0, 0, 0.0);
+	box-shadow: 0px 0px;
+}
+.jumbotron{
+	padding:0px ;
+	
+}
+#header{
+    width:100%;
+    height:30rem;
+    overflow: hidden;
+}
+#header-img{
+    margin-top:-50rem;
+}
+#head{
+    background-color: rgba(7, 10, 49, 0.678);
+    color:white;
+}
+#mapid {
+    width:100%;
+    height:20rem;
+}
+#info{
+	border:0px;
+	background-color:rgba(0, 0, 0, 0);
+}
+#res_list{
+	width:100%;
+	height:50rem; 
+	overflow:auto;
+}
+.error{
+	width:100%;
+	height:2rem;
+	background-color:rgba(242, 104, 104, 0.8);
+	color:red;
+	float:top;
+}
+.cross{
+	cursor:pointer;
+	width:100%;
+	height:100%;
+}
+
+.fsp-item{
+	border:1px solid black;
+	margin-left:0.25rem;
+	border-radius:2rem;
+}
+::-webkit-scrollbar {
+  display:none;
+}

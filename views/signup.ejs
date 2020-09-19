@@ -1,0 +1,43 @@
+<%-include('partials/header.ejs') %>
+    <link rel = "stylesheet" href = "stylesheets/signin.css">
+    <title>City Navigator: Signup</title>
+  </head>
+  <body>
+<%-include('partials/navbar_new.ejs') %>
+<div class = "container mt-5" id = "sigin_form">
+	<form action = "/signup" method = "POST">
+  <div class="form-group">
+    <label for="uEmail1">Email address</label>
+    <input type="email" class="form-control" id="uEmail1" aria-describedby="emailHelp" placeholder = "Email Address" name = "username" required>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+	<div class="form-group">
+    <label for="uname">Username</label>
+    <input type="text" class="form-control" id="uname" placeholder = "Username" name = "uname" required>
+  </div>
+  <div class="form-group">
+    <label for="upass">Password</label>
+	  <div class = "input-group">
+	    <input type="password" class="form-control" id="upass" placeholder = "password" name = "password" required>
+			<span id = "icon"><i class="far fa-eye p-2" ></i></span>
+	  </div>
+  </div>
+	<div class="progress">
+  		<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+		</div>
+	</div>
+		<p id="password-strength-text"></p>
+  <div class="form-group">
+    <label for="cpass">Confirm Password</label>
+    <input type="password" class="form-control" id="cpass" placeholder = "password" name = "cpassword" required>
+  </div>
+  <button type="submit" class="btn btn-primary " disabled>Sign Up</button>
+</form>
+</div>
+	  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	  <script src="https://kit.fontawesome.com/10b4447403.js" crossorigin="anonymous"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js"></script>
+	  <script src = "/scripts/sigin.js"></script>
+<%-include('partials/footer.ejs') %>
