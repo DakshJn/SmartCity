@@ -15,7 +15,10 @@
 3) In order to get each piece of information we need to go for help desk. It’s a limited system and fewer users friendly. <br>
 4) The existing system is a manual system. The manual system gives us very less security for saving data.<br>
 
-
+# Proposed System
+1) The Proposed System provides an online information about the city going to visit. <br>
+2) It also provides additional services to the registered user. User Friendliness is provided in the application with various controls provided by system Rich User Interface. <br>
+3) The system makes the overall project management much easier and flexible. The city information files can be stored in centralized database which can be maintained by the system.<br>
 
 
 
